@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"> 
+</head>
+<body>
+<ul>
+<li>
+    <a href="Sunday.html">Sunday</a>
+    <ul class="dropdown">
+        <li><a href="Westminster.html">West-minster</a></li>
+        <li>
+            <a href="St. James park.html">St. James park</a></li>
+        <li><a href="Buckingham palace.html">Buckingham palace</a></li>
+        <li><a href="London eye.html">London eye</a></li>
+        <li><a href="Big Ben.html">Big Ben</a></li>
+    </ul></li>
+    <li><a href="Monday.html">Monday</a>
+        <ul class="dropdown">
+            <li><a href="Westfield London mall.html">Westfield london mall</a></li></ul></li>
+    <li><a href="Tuesday.html">Tuesday</a>
+            <ul class="dropdown">
+                <li><a href="soho.html">Soho</a></li>
+                <li><a href="Piccadilly square.html">Piccadilly square</a></li>
+                <li><a href="Hyde park.html">Hyde park</a></li>
+                <li><a href="m and m store.html">M and M store</a></li></ul></li>
+    <li><a href="Wednesday.html">Wedenesday</a>
+                <ul class="dropdown">
+                    <li><a href="madame Tussaud.html">Madame Tussaud</a></li>
+                    <li><a href="covent garden.html">Covent garden</a></li></ul></li>
+    <li><a href="Thursday.html">Thursday</a>
+                    <ul class="dropdown">
+                        <li><a href="London zoo.html">London zoo</a></li>
+                        <li><a href="IFS cloud cable car.html">IFS cloud cable car</a></li>
+                        <li><a href="Kyoto garden.html">Kyoto garden</a></li></ul></li>
+    <li><a href="Dua.html">Dua</a></li>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="translator.html">Translator</a></li>
+</ul>
+  <body>
+      <style>
+          Body {
+        background-color: #996633;
+        background-size: 10000%;
+
+          }
+          </style>
+    <style>
+    .parallax {
+      /* The image used */
+      background-image: url("park.jpg");
+
+      /* Set a specific height */
+      min-height: 500px;
+
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    </style>
+
+    <!-- Container element -->
+    <div class="parallax"></div>
+</body>
+
+<link rel= "stylesheet" href="style.css">
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            video {
+                float: right;
+            }
+        </style>
+        </head>
+        <body>
+        <video width="600" controls autoplay loop playsinline>
+            <source src="HP.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+            <font color="purple" size="40"><a href="https://www.bing.com/maps?q=Hyde+park+london&FORM=HDRSC6&cp=51.507768%7E-0.1634&lvl=16.0" target="_blank">Click here to view the location of Hyde park</a></font>
+            <!DOCTYPE html>
+            <html lang="en">
+            <head>
+                <meta charset="utf-8"> 
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <style>
+                    body {
+                        margin: 0;
+                        font-family: Arial, sans-serif;
+                        background-color: #f4f4f4;
+                    }
+                    .parallax {
+                        position: relative;
+                        overflow: hidden;
+                        height: 500px;
+                    }
+                    .parallax::before {
+                        content: "";
+                        background-image: url("park.jpg");
+                        background-size: cover;
+                        background-attachment: fixed;
+                        background-position: center;
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        right: 0;
+                        bottom: 0;
+                        z-index: -1;
+                        transform: translateZ(0);
+                    }
+                    .content {
+                        padding: 20px;
+                    }
+                </style>
+            </head>
+            <body>
+                <div class="parallax"></div>
+                <div class="content">
+                    <!-- Additional content here -->
+                </div>
+                <script>
+                    function updateParallax() {
+                        var parallax = document.querySelector('.parallax::before');
+                        if (parallax) {
+                            var scrollPosition = window.scrollY;
+                            parallax.style.transform = 'translateY(' + (scrollPosition * 0.5) + 'px)';
+                        }
+                    }
+
+                    document.addEventListener('scroll', updateParallax);
+                </script>
+            </body>
+            </html>
+            <style>
+                .parallax {
+                  /* The image used */
+                  background-image: url("park.jpg");
+
+                  /* Set a specific height */
+                  min-height: 500px;
+
+                  /* Create the parallax scrolling effect */
+                  background-attachment: fixed;
+                  background-position: center;
+                  background-repeat: no-repeat;
+                  background-size: cover;
+                }
+                </style>
+
+                <!-- Container element -->
+                <div class="parallax"></div>
+            <font color="blue" size="10">Hyde Park is a 350-acre (140 ha), historic Grade I-listed urban park in Westminster, Greater London. A Royal Park, it is the largest of the parks and green spaces that form a chain from Kensington Palace through Kensington Gardens and Hyde Park, via Hyde Park Corner and Green Park, past Buckingham Palace to St James's Park. Hyde Park is divided by the Serpentine and the Long Water lakes.</font>
